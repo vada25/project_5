@@ -1,0 +1,9 @@
+@import url(base/_variables.scss);
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+.container {
+    min-width: 950px;
+    margin: 0 auto;
+}
