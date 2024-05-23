@@ -1,4 +1,6 @@
-@import url(base/_variables.scss);
+@import 'base/_variables.scss';
+@import 'blocks/_promo.scss';
+@import 'blocks/_header.scss';
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -7,3 +9,4 @@
     min-width: 950px;
     margin: 0 auto;
 }
+

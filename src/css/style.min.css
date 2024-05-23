@@ -1,1 +1,1 @@
-@import"base/_variables.scss";*{font-family:"Museo Sans Cyrl",sans-serif}.container{min-width:950px;margin:0 auto}
+.promo{min-height:650px;padding:21px 0 93px 0;background:url(../../img/main.jpg)}.header{display:flex;justify-content:space-between;align-items:center}.header__logo{width:300px}.header__logo img{width:100%}*{font-family:"Museo Sans Cyrl",sans-serif}.container{min-width:950px;margin:0 auto}
