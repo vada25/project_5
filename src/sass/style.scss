@@ -2,7 +2,8 @@
 @import 'blocks/_promo.scss';
 @import 'blocks/_header.scss';
 @import 'blocks/_buttons.scss';
-@import 'blocks/advantages';
+@import 'blocks/_advantages';
+
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -11,4 +12,5 @@
     min-width: 950px;
     margin: 0 auto;
 }
+@import 'blocks/_media';
 
