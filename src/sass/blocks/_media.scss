@@ -57,6 +57,7 @@
 @media (min-width: 320px) and (max-width: 534px) {
     .container {
         min-width: 320px;
+        margin: 0 auto;
     }
     .header {
         flex-direction: column;
@@ -100,15 +101,21 @@
             margin-top: 20px;
         }
     }
+
     .title_left {
         font-size: 30px;
+        text-align: center;
     }
     .consultation__descr {
         font-size: 18px;
         max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
     }
     .feed-form {
         width: 260px;
+        margin: 0 auto;
+        margin-top: 20px;
         input {
             height: 40px;
         }
