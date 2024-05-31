@@ -45,6 +45,14 @@
         width: 160px;
         font-size: 14px;
     }
+    .consultation {
+        padding: 50px 30px 40px 30px;
+        min-height: 600px;
+    }
+    .button_submit {
+        width: 160px;
+        font-size: 14px;
+    }
 }
 @media (min-width: 320px) and (max-width: 534px) {
     .container {
@@ -92,4 +100,21 @@
             margin-top: 20px;
         }
     }
+    .title_left {
+        font-size: 30px;
+    }
+    .consultation__descr {
+        font-size: 18px;
+        max-width: 300px;
+    }
+    .feed-form {
+        width: 260px;
+        input {
+            height: 40px;
+        }
+    }
+    .button_submit {
+        margin: 0 auto;
+    }
+
 }
