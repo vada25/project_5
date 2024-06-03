@@ -97,6 +97,16 @@
             margin-left: 20px;
         }
     }
+    .footer__info {
+            width: 300px;
+            height: 230px;
+            background-color: $main-color;
+            padding: 30px 40px 60px 40px;
+        }
+    .footer__social-item {
+            width: 40px;
+            height: 40px;
+        }
     
 }
 @media (min-width: 320px) and (max-width: 534px) {
@@ -181,7 +191,6 @@
         font-size: 0;
         color: transparent;
     }
-    
     .catalog {
         padding: 0 15px 60px 15px;
         &__tabs {
@@ -193,7 +202,6 @@
             margin-top: 10px;
         }
     }
-
     .comment {
         padding: 41px 15px 20px 15px;
         img {
