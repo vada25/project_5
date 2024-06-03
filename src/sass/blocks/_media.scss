@@ -2,6 +2,9 @@
     .container {
         min-width: 845px;
     }
+    .catalog__content {
+        justify-content: space-around;
+    }
 }
 @media (max-width: 991px) {
     .promo {
@@ -30,6 +33,9 @@
             width: 400px;
         }
     } 
+    .catalog {
+    padding: 0 21px 80px 21px;
+    }
         
 }
 @media (max-width: 576px) {
@@ -75,7 +81,22 @@
             width: 350px;
         }
     }
-
+    .catalog__tab {
+        width: 200px;
+        height: 45px;
+        font-size: 16px;
+        line-height: 44px;
+    }
+    .comment {
+        padding: 41px 20px 20px 20px;
+        img {
+            max-width: 130px;
+            max-height: 130px;
+        }
+        &__item {
+            margin-left: 20px;
+        }
+    }
     
 }
 @media (min-width: 320px) and (max-width: 534px) {
@@ -159,6 +180,29 @@
     .slick-dots li button {
         font-size: 0;
         color: transparent;
+    }
+    
+    .catalog {
+        padding: 0 15px 60px 15px;
+        &__tabs {
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &__tab {
+            margin-top: 10px;
+        }
+    }
+
+    .comment {
+        padding: 41px 15px 20px 15px;
+        img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+        &__item {
+            margin-left: 10px;
+        }
     }
 
 }
