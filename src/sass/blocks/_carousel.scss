@@ -28,17 +28,20 @@
         display: flex !important;
         justify-content: center;
         padding: 0;
-        margin: 0;
-        list-style: none;
-       
-        
+        margin: 0;  
+        list-style-type: none;      
     }
-    
+   
     .slick-dots li {
-        margin: 0 5px;
+        margin: 0 5px; 
+        list-style: none;
+        list-style-type: none;
+        }
         
-        
-    }
+    .slick-dots li button {
+            font-size: 0;
+            color: transparent;
+        }
     
     .slick-dots button {
         background-color: #ccc;
@@ -47,8 +50,7 @@
         height: 12px;
         border-radius: 50%;
         padding: 0;
-        cursor: pointer;
-        
+        cursor: pointer;              
     }
     
     .slick-dots .slick-active button {
