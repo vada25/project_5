@@ -10,6 +10,7 @@
 @import 'blocks/_catalog';
 @import 'blocks/_comment';
 @import 'blocks/_footer';
+@import 'blocks/_modal';
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -18,6 +19,7 @@
     min-width: 950px;
     margin: 0 auto;
 }
+
 @import 'blocks/_media';
 
 
