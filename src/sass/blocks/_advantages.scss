@@ -44,5 +44,15 @@
         line-height: 18px;
         text-decoration-line: underline;
     }
+    &__icon_animation {
+        animation-name: heartbeat;
+        animation-duration: 4s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite; 
+        
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
     
 }
